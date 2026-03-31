@@ -1,1 +1,16 @@
 # Fibonacci-series-
+#include <stdio.h>
+int main(){
+    int a=0,b=1,c,n;
+    printf("25331A05E8\n");
+    printf("enter the number of terms \n");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        printf("%d",a);
+        c=a+b;
+        a=b;
+        b=c;
+        
+    }
+    return 0;
+}
